@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    margin-top: 100px;
+    background-color: #2e292a;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    background-color: #fae0a2;
+    color: #2e292a;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto 150px auto 150px;
+  }
+
+  #container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px 150px 20px 150px;
+    border-radius: 15px;
+    padding-bottom: 13px;
+    padding-top: 18px;
+    
+  }
+
+  #number {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 40%;
+    padding: 10px -5px 10px 5px;
+    font-size: 45px;
+    box-shadow: #fae0a2 -6px 6px;
+    justify-content: center;
+  }
+
+  #convert-btn {
+    background-color: #fae0a2;
+    border-radius: 10px;
+    width: 20%;
+    height: 10%;
+    padding: 15px 0 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    border: black outset 6px;
+    /*margin-bottom: 50px;*/
+  
+  }
+
+  #output {
+    color: #2e292a;
+    text-align: center;
+    background-color: #fae0a2;
+    border-radius: 10px;
+    padding: 5px 0 5px 0;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto 150px 35px 150px;
+  }
+
+  #conversions {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: auto 500px auto 500px;
+    border: 5px solid #fae0a2;
+    border-radius: 10px;
+    padding: 50px 5px 50px 5px;
+    color: #2e292a;
+    font-weight: bold;
+    font-size: 120%;
+  }
+
+  table, td {
+    padding: 5px;
+    border: 2px solid;
+    width: 50%;
+    border-collapse: collapse;
+  }
+
+  caption {
+    border: outset 4px;
+    padding: 3px;
+  }
